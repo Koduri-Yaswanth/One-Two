@@ -1,31 +1,12 @@
-import React from 'react'
-import { Text, SafeAreaView , StyleSheet } from "react-native";
-import { createStackNavigator } from '@react-navigation/stack';
+import React from "react";
+import { View,Text } from "react-native";
 
-const Stack = createStackNavigator();
-function Mainscreen  ()  {
-  return (
-    <SafeAreaView style={{
-      
-      justifyContent: 'center',
-      alignItems:"center",
-      height:"100%"
-      
-    }} >
-        <Text style={styles.main} >welcome to home screen</Text>
-    </SafeAreaView>
-  )
+function Mainscreen(){
+    return(
+        <View>
+            <Text>hello</Text>
+        </View>
+
+   );
 }
-
-const styles = StyleSheet.create({
-   
-    main:{
-      
-      textAlign:"center",
-     
-      
-      
-    }
-})
-
-export default Mainscreen
+export default Mainscreen;
